@@ -69,7 +69,7 @@ public class OlaMundoSwing extends javax.swing.JFrame {
 
     private void btnClickActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnClickActionPerformed
         // TODO add your handling code here:
-        lblMensagem.setText("Hello World");
+        lblMensagem.setText("I love you");
     }//GEN-LAST:event_btnClickActionPerformed
 
     /**
