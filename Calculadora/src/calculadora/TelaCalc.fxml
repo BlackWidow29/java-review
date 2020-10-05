@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="632.0" prefWidth="502.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculadora.TelaCalcController">
+   <children>
+      <HBox alignment="TOP_RIGHT" prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: #AEAEAE; -fx-border-radius: 6;">
+         <VBox.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </VBox.margin>
+         <children>
+            <VBox alignment="CENTER_RIGHT" prefHeight="98.0" prefWidth="487.0">
+               <children>
+                  <Label fx:id="lblCount" text="0">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets right="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="lblResult" text="0">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets right="10.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <VBox prefHeight="448.0" prefWidth="600.0">
+         <VBox.margin>
+            <Insets left="20.0" right="20.0" />
+         </VBox.margin>
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#numberSeven" prefHeight="45.0" prefWidth="84.0" style="-fx-background-color: #43655A; -fx-border-color: #43655A; -fx-border-radius: 6;" text="7" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#numberEight" prefHeight="45.0" prefWidth="84.0" style="-fx-background-color: #43655A; -fx-border-color: #43655A; -fx-border-radius: 6;" text="8" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#numberNine" prefHeight="45.0" prefWidth="84.0" style="-fx-background-color: #43655A; -fx-border-color: #43655A; -fx-border-radius: 6;" text="9" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#opDiv" prefHeight="45.0" prefWidth="84.0" style="-fx-background-color: #43655A; -fx-border-color: #43655A; -fx-border-radius: 6;" text="/" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#numberFour" prefHeight="45.0" prefWidth="84.0" style="-fx-background-color: #43655A; -fx-border-color: #43655A; -fx-border-radius: 6;" text="4" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#numberFive" prefHeight="45.0" prefWidth="84.0" style="-fx-background-color: #43655A; -fx-border-color: #43655A; -fx-border-radius: 6;" text="5" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#numberSix" prefHeight="45.0" prefWidth="84.0" style="-fx-background-color: #43655A; -fx-border-color: #43655A; -fx-border-radius: 6;" text="6" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#opMult" prefHeight="45.0" prefWidth="84.0" style="-fx-background-color: #43655A; -fx-border-color: #43655A; -fx-border-radius: 6;" text="*" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#numberOne" prefHeight="45.0" prefWidth="84.0" style="-fx-background-color: #43655A; -fx-border-color: #43655A; -fx-border-radius: 6;" text="1" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#numberTwo" prefHeight="45.0" prefWidth="84.0" style="-fx-background-color: #43655A; -fx-border-color: #43655A; -fx-border-radius: 6;" text="2" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#numberThree" prefHeight="45.0" prefWidth="84.0" style="-fx-background-color: #43655A; -fx-border-color: #43655A; -fx-border-radius: 6;" text="3" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#opSub" prefHeight="45.0" prefWidth="84.0" style="-fx-background-color: #43655A; -fx-border-color: #43655A; -fx-border-radius: 6;" text="-" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#numberZero" prefHeight="45.0" prefWidth="84.0" style="-fx-background-color: #43655A; -fx-border-color: #43655A; -fx-border-radius: 6;" text="0" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#point" prefHeight="45.0" prefWidth="84.0" style="-fx-background-color: #43655A; -fx-border-color: #43655A; -fx-border-radius: 6;" text="," textFill="WHITE">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#opSum" prefHeight="45.0" prefWidth="84.0" style="-fx-background-color: #43655A; -fx-border-color: #43655A; -fx-border-radius: 6;" text="+" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#setResult" prefHeight="45.0" prefWidth="84.0" style="-fx-background-color: #43655A; -fx-border-color: #43655A; -fx-border-radius: 6;" text="=" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#clearResults" prefHeight="45.0" prefWidth="84.0" style="-fx-background-color: #43655A; -fx-border-color: #43655A; -fx-border-radius: 6;" text="C" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="32.0" top="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</VBox>
